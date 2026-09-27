@@ -161,13 +161,13 @@ This project was completed in response to a technical assessment provided by **C
 
 All 600 labelled points form seven separated, single-class sampling sites. This structure motivates grouped rather than random-row validation.
 
-![Raw coordinate distribution showing seven spatial sampling sites](assets/readme/sampling_sites.png)
+![Raw coordinate distribution showing seven spatial sampling sites](assets/images/sampling_sites.png)
 
 ### Sentinel-1 overview
 
 The false-colour Sentinel-1 composite covers the complete study extent with an 8 km contextual margin. Point colours indicate the labelled class; the raster colours encode stretched VV, VH and VV−VH responses rather than natural colour.
 
-![Sentinel-1 false-colour overview with all labelled observations](assets/readme/sentinel1_overview.png)
+![Sentinel-1 false-colour overview with all labelled observations](assets/images/sentinel1_overview.png)
 
 ### Spatial-group sensitivity
 
@@ -179,16 +179,16 @@ The seven-site partition is stable across a broad DBSCAN radius range, supportin
 
 Mean temporal profiles and interquartile bands show that rice has substantially stronger seasonal dynamics, particularly in the latter part of the year. The curves are descriptive aggregates; they are not themselves the validation result.
 
-![Seasonal Sentinel-1 VH, VV, ratio and RVI profiles](assets/readme/seasonal_profiles.png)
+![Seasonal Sentinel-1 VH, VV, ratio and RVI profiles](assets/images/seasonal_profiles.png)
 
 ### Most discriminative annual features
 
 The largest standardized class differences are dominated by annual variability and spread descriptors. These label-aware effect sizes are exploratory; all model evaluation remains site-held-out.
 
-![Features with strongest standardized Rice and Non Rice separation](assets/readme/feature_effects.png)
+![Features with strongest standardized Rice and Non Rice separation](assets/images/feature_effects.png)
 
 ### Held-out-site classification diagnostics
 
 The final panel combines the pooled leave-one-site-out confusion matrix with the RBF SVM ROC curve. Every displayed prediction was generated while its complete spatial site was excluded from model fitting.
 
-![Leave-one-site-out confusion matrix and pooled ROC curve](assets/readme/model_diagnostics.png)
+![Leave-one-site-out confusion matrix and pooled ROC curve](assets/images/model_diagnostics.png)
