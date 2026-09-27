@@ -173,7 +173,7 @@ The false-colour Sentinel-1 composite covers the complete study extent with an 8
 
 The seven-site partition is stable across a broad DBSCAN radius range, supporting its use as a validation grouping rather than an arbitrary parameterization.
 
-![DBSCAN sensitivity analysis](assets/readme/dbscan_sensitivity.png)
+![DBSCAN sensitivity analysis](assets/images/dbscan_sensitivity.png)
 
 ### Seasonal radar behaviour
 
